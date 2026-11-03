@@ -36,7 +36,7 @@ function validarOportunidade(req, res, next) {
     }
 
     if(!MODALIDADES.includes(modalidade)) {
-        erros.push(`A modalidade deve ser uma dessas: ${MODALIDES.join(', ')}.`);
+        erros.push(`A modalidade deve ser uma dessas: ${MODALIDADES.join(', ')}.`);
     }
 
     if(!prazo) {
